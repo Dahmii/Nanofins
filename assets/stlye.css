@@ -206,6 +206,6 @@ input[type="email"]:focus {
     width: 100%;
   }
   .hero-vid {
-    width: 1170px;
+    width: 100%;
   }
 }
