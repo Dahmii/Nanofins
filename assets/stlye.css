@@ -197,9 +197,15 @@ input[type="email"]:focus {
   right: 14px;
   color: #ffffff;
 }
+.hero-vid {
+  width: 1170px;
+}
 
 @media (max-width: 600px) {
   .container {
     width: 100%;
+  }
+  .hero-vid {
+    width: 1170px;
   }
 }
