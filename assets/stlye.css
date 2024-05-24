@@ -223,16 +223,21 @@ input[type="email"]:focus {
   padding-bottom: 4px;
 }
 
+.google-form-button {
+}
+
 .google-form-button a {
   text-decoration: none;
   color: #fff;
-  border: 1px solid #fff;
-  padding: 20px;
+  background-color: red;
+  border: 1px solid red;
+  padding: 20px 0;
 }
 
 .google-form-button a:hover {
-  background-color: #fff;
-  color: #333;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
   font-family: "Playfair Display", serif;
 }
 
