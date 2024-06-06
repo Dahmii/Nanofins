@@ -211,8 +211,34 @@ input[type="email"]:focus {
   right: 14px;
   color: #ffffff;
 }
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Other styles for the container */
+}
+
 .hero-vid {
-  width: 1170px;
+  width: 800px;
+}
+
+.vid-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vid-text a {
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  transition: 0.3s ease-in;
+}
+
+.vid-text a:hover {
+  border-bottom: solid 1px #fff;
+  font-weight: bold;
 }
 
 .form-group {
@@ -221,9 +247,6 @@ input[type="email"]:focus {
 
 .form-group h2 {
   padding-bottom: 4px;
-}
-
-.google-form-button {
 }
 
 .google-form-button a {
@@ -239,6 +262,12 @@ input[type="email"]:focus {
   color: #fff;
   border: 1px solid #fff;
   font-family: "Playfair Display", serif;
+}
+
+.download {
+  color: #77cc42;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 @media (max-width: 600px) {
