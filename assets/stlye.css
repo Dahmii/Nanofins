@@ -13,8 +13,8 @@
 
 body {
   font-family: "Playfair Display", serif;
-  background: var(--outer-space);
-  color: var(--platinum);
+  background: var(--platinum);
+  color: var(--black);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -99,7 +99,7 @@ input[type="email"]:focus {
   height: 1px;
   bottom: 0px;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: var(--black);
 }
 .home-section .coming-soon {
   padding: 68px 0 30px 0;
@@ -117,14 +117,14 @@ input[type="email"]:focus {
   padding: 35px 0 50px 0;
 }
 .home-section .contacts .contact .label {
-  color: var(--platinum);
+  color: var(--black);
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
   margin-right: 16px;
 }
 .home-section .contacts .contact a {
-  color: #ffffff;
+  color: var(--black);
   text-decoration: none;
   position: relative;
 }
@@ -195,7 +195,7 @@ input[type="email"]:focus {
   font-size: 32px;
 }
 .home-section .form-group form .form-field .btn-submit:hover {
-  color: #ffffff;
+  color: var(--black);
 }
 .home-section .form-group form .form-field.focused:before {
   background: #ffffff;
@@ -209,7 +209,7 @@ input[type="email"]:focus {
 }
 .home-section .form-group form .form-field.focused .btn-submit {
   right: 14px;
-  color: #ffffff;
+  color: var(--black);
 }
 
 .video-container {
@@ -230,14 +230,14 @@ input[type="email"]:focus {
 }
 
 .vid-text a {
-  color: #ffffff;
+  color: var(--black);
   text-decoration: none;
   position: relative;
   transition: 0.3s ease-in;
 }
 
 .vid-text a:hover {
-  border-bottom: solid 1px #fff;
+  border-bottom: solid 1px var(--black);
   font-weight: bold;
 }
 
@@ -251,7 +251,7 @@ input[type="email"]:focus {
 
 .google-form-button a {
   text-decoration: none;
-  color: #fff;
+  color: var(--white);
   background-color: red;
   border: 1px solid red;
   padding: 20px 0;
@@ -259,7 +259,7 @@ input[type="email"]:focus {
 
 .google-form-button a:hover {
   background-color: transparent;
-  color: #fff;
+  color: var(--black);
   border: 1px solid #fff;
   font-family: "Playfair Display", serif;
 }
