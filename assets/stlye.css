@@ -18,9 +18,19 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+h1 {
+  font-size: 40px;
+}
+
 h2 {
   font-size: 32px;
   font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
   letter-spacing: 0.02em;
 }
 
@@ -75,7 +85,8 @@ input[type="email"]:focus {
   height: 50px;
 }
 
-.home-section {
+.home-section,
+.agreement-section {
   padding: 120px 0;
   width: 100%;
 }
@@ -282,4 +293,25 @@ input[type="email"]:focus {
     font-weight: 200;
     letter-spacing: 0.02em;
   }
+}
+
+.back {
+  margin-top: 50px;
+}
+.back a {
+  text-decoration: none;
+  color: var(--black);
+}
+.back a {
+  /* border: 1px solid var(--outer-space);
+  border-radius: 20px; */
+  width: 20%;
+  padding: 10px;
+}
+.back a:hover {
+  font-size: 20px;
+}
+.agreement a {
+  text-decoration: underline;
+  color: var(--outer-space);
 }
