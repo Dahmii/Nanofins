@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 400;
   letter-spacing: 0.02em;
 }
@@ -112,6 +112,7 @@ nav li {
 .menu a {
   position: relative;
   text-decoration: none;
+  font-size: 20px;
   padding-bottom: 5px;
 }
 
